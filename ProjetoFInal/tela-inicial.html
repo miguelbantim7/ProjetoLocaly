@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localy
+
+
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style-form.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="Logo">
+            <img src="img/logo.png" alt="Logo da Localy" width="300" height="200">
+        </div>
+
+    </header>
+
+    <form class="informacao">
+        <div class="col-md-4">
+            <label for="validationServer01" class="form-label">Primeiro Nome</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+            <div class="valid-feedback">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Segundo Nome</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+            <div class="valid-feedback">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">E-mail</label>
+            <div class="input-group has-validation">
+                <input type="text" class="form-control" id="validationServerUsername"
+                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required
+                    pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$"
+                    title="O formato deve ser válido e conter '@' e um ponto, ex: usuario@dominio.com">
+
+
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationServer03" class="form-label">Cidade</label>
+            <input type="text" class="form-control submit" id="validationServer01"
+                aria-describedby="validationServer01Feedback" required>
+            <div id="validationServer01Feedback" class="invalid-feedback">
+                vai te ajudar achar produtos proximos de você
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationServer04" class="form-label">Estado</label>
+            <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+
+                <option selected disabled value="">Escolher...</option>
+
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <div id="validationServer04Feedback" class="invalid-feedback">
+                vai te ajudar achar produtos proximos de você
+            </div>
+        </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+              Concordo com os termos
+              </label>
+            </div>
+          </div>
+        <div class="col13">
+            <div class="link">
+            <a class="btn btn-primary" href="index.html" role="button">Enviar Formulário</a>
+        </div>
+        </div>
+    </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Yv9N8qVpX9A6oFqA4P0Wv6L9x3Q5uP4K7t8eC4jG2s8b0O6s2eR9iV4z5L7rG3k"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
